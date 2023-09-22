@@ -1,0 +1,42 @@
+.buttons-nav {
+    background-color: var(--color-silver);
+}
+
+.buttons-nav__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+  }
+  
+  .buttons-nav__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 8px 14px;
+    border: 2px solid var(--color-white);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: border-color 0.3s ease-in-out;
+    background-color: var(--color-white);
+    font: var(--button-font);
+    gap: 8px;
+    white-space: nowrap;
+    width: 125px;
+  }
+  
+  .buttons-nav__span {
+    margin-top: 5px;
+    font-size: 14px;
+    color: var(--color-black);
+  }
+  
+  .buttons-nav__button:hover {
+    border-color: var(--color-orange);
+  }
+
+  .active {
+    background-color: var(--color-yellow);
+  }

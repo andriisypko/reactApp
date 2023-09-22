@@ -1,0 +1,115 @@
+.card{
+    border-radius: 18px;
+     background: var(--color-white);
+     margin-bottom: 30px;
+     padding: 12px;
+}
+
+.card__img {
+    display: block;
+    width: 276px;
+    height: 220px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card__price {
+    font: var(--card-price-font);
+    margin-bottom: 10px;
+}
+
+.card__name{
+    font: var(--standart-text-font);
+    margin-bottom: 30px;
+}
+
+.card__weight{
+    font: var(--header-price-font);
+    margin-bottom: 10px;
+    color: var(--color-gray);
+}
+
+.card__btn-container {
+    display: flex;
+    justify-content: start;
+}
+
+@media (max-width: 768px) {
+    .card{
+        margin-bottom: 24px;
+        padding: 4px;
+        max-width: 120px;
+    }
+
+    .card__img {
+        display: block;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+
+    .card__price {
+        font: var(--tab-card-price-font);
+        margin-bottom: 10px;
+    }
+
+    .card__name{
+        font: var(--tab-standart-text-font);
+        margin-bottom: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .card__weight{
+        font: var(--tab-standart-text-font);
+        margin-bottom: 7px;
+    }
+
+    .card__btn-container {
+        max-width: 120px;
+    }
+  }
+
+  @media (max-width: 460px) {
+    .card{
+        margin-bottom: 24px;
+        padding: 4px;
+        max-width: 100px;
+    }
+
+    .card__img {
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .card__price {
+        font: var(--tab-card-price-font);
+        margin-bottom: 10px;
+    }
+
+    .card__name{
+        font: var(--tab-standart-text-font);
+        margin-bottom: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .card__weight{
+        font: var(--tab-standart-text-font);
+        margin-bottom: 7px;
+    }
+
+    .card__btn-container {
+        max-width: 100px;
+    }
+  }
+
+
+
+
+

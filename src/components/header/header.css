@@ -1,0 +1,86 @@
+.header{
+    background-color: var(--color-silver);
+}
+
+.header__container {
+    background-image: url(../../images/Ellipse\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header__logo-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-top: 15px;
+}
+
+.header__img{
+    max-width: 326px;
+}
+
+.header__content-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 63px;
+}
+
+.header__title {
+    color: var(--color-white);
+    font: var(--main-title-font);
+    max-width: 500px;
+}
+
+.header__text {
+    color: var(--color-white);
+    font: var(--standart-text-font);
+    margin-top: 52px;
+}
+
+.orange-span {
+    color: var(--color-orange)
+}
+
+.span-price {
+    font: var(--header-price-font)
+}
+
+
+@media (max-width: 768px) {
+    .header__title{
+        font: var(--tab-main-title-font);
+    }
+
+    .header__img{
+        max-width: 297px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .header__content-container{
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+
+    .header__img{
+        max-width: 250px;
+    }
+
+    .header__title{
+        font: var(--phone-main-title-font);
+    }
+
+    .header__text {
+        margin-top: 16px;
+    }
+    
+}

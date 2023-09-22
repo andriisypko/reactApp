@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    /* colors */
+    --color-white: #fff;
+    --color-black: #000000;
+    --color-yellow: #FFAB08;
+    --color-orange: #FF7020;
+    --color-silver: #F9F9F9;
+    --color-gray: #B1B1B1;
+
+    /*fonts*/
+    --main-font: 'Nunito', sans-serif;
+
+    /*fonts size*/
+    --main-title-font: 800 50px/60px var(--main-font);
+    --tab-main-title-font: 800 36px/43px var(--main-font);
+    --phone-main-title-font: 800 30px/36px var(--main-font);
+    --header-price-font: 600 16px/21px var(--main-font);
+    --standart-text-font: 400 16px/21px var(--main-font);
+    --tab-standart-text-font: 400 12px/16px var(--main-font);
+    --product-title-font: 600 40px/48px var(--main-font);
+    --card-price-font: 600 24px/24px var(--main-font);
+    --tab-card-price-font: 600 16px/16px var(--main-font);
+    --button-font: 400 16px/16px var(--main-font);
+    --bag-title-font: 600 24px/24px var(--main-font);
+    --bag-info-font: 600 12px/17px var(--main-font);
+    --free-shipping-font: 400 12px/16px var(--main-font);
+    --footer-title-font: 400 24px/24px var(--main-font);
+    --phone-footer-title-font: 400 18px/18px var(--main-font);
 }

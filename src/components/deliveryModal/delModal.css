@@ -1,0 +1,145 @@
+.modal {
+    position: fixed;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    width: 684px;
+    height: 432px;
+    background-color: #f9f9f9;
+    transform: translate(-50%, -50%);
+    border-radius: 24px;
+    border: none;
+    overflow: hidden;
+    z-index: 10000;
+  }
+
+.modal-overlay{
+    position: fixed;
+    inset: 0px;
+    background-color: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+}
+
+.modal__photo-content{
+    background-color: var(--color-yellow);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.modal__main-content{
+    display: flex;
+    justify-content: start;
+    height: 100%;
+    width: 100%;
+    padding: 44px 24px 24px 24px;
+}
+
+.modal__title{
+    font: var(--bag-title-font);
+    margin-bottom: 16px;
+}
+
+input {
+    border-radius: 12px;
+    border: 1px solid #F2F2F3;
+    background: #FFF;
+    width: 100%;
+    padding: 12px;
+    align-items: flex-start;
+    font: var(--bag-info-font);
+}
+
+.name-input{
+    margin-bottom: 8px;
+}
+
+.phone-input{
+    margin-bottom: 16px;
+}
+
+.address-input{
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.modal__double-input{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.modal__radio-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    justify-content: start;
+    gap: 12px;
+}
+
+.radio-text {
+    font: var(--bag-info-font);
+}
+
+.close-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.modal__btn-container{
+    position: absolute;
+    bottom: 20px;
+}
+
+@media (max-width: 500px) {
+    .modal {
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      transform: none;
+      border-radius: 0;
+    }
+  
+    .modal__photo-content {
+      display: none;
+    }
+  
+    .modal__btn-container {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (min-width: 502px) and (max-width: 768px) {
+    .modal {
+      width: 450px;
+    }
+
+    .modal__photo-content {
+        display: none;
+    }
+
+    .modal__btn-container {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+  }

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reactApp/static/css/main.57ed71dc.css",
+    "main.js": "/reactApp/static/js/main.62371b6f.js",
+    "static/media/pizza.svg": "/reactApp/static/media/pizza.b7300e78256a2449d8dd061152483acd.svg",
+    "static/media/des.svg": "/reactApp/static/media/des.d2e6685c1f78732f055b628686e24535.svg",
+    "static/media/hotDogs.svg": "/reactApp/static/media/hotDogs.1473bfe36d144c78d1f5b3b9412200da.svg",
+    "static/media/header__img.png": "/reactApp/static/media/header__img.28502710989f97bce62b.png",
+    "static/media/pic.png": "/reactApp/static/media/pic.8b0ea9daf758851f6ccd.png",
+    "static/media/kebab.svg": "/reactApp/static/media/kebab.2ba558657d51092fe902b194d7f14d90.svg",
+    "static/media/snack.svg": "/reactApp/static/media/snack.2fcb351f304a25f75118167f7f9ac688.svg",
+    "static/media/souces.svg": "/reactApp/static/media/souces.4441e73cbe63a52da1e11aadb66e62c0.svg",
+    "static/media/burger.svg": "/reactApp/static/media/burger.bca0f668b8d323c00184b2defdb11918.svg",
+    "static/media/delivery.svg": "/reactApp/static/media/delivery.bb4932154fdfffb77866804c4ad6dcf4.svg",
+    "static/media/wok.svg": "/reactApp/static/media/wok.416161ddffa1e1783e3576931e9fe9aa.svg",
+    "index.html": "/reactApp/index.html",
+    "main.57ed71dc.css.map": "/reactApp/static/css/main.57ed71dc.css.map",
+    "main.62371b6f.js.map": "/reactApp/static/js/main.62371b6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57ed71dc.css",
+    "static/js/main.62371b6f.js"
+  ]
+}
